@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: #444;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pages.encrypt.EncryptController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="395.0" style="-fx-background-color: #333;">
+         <children>
+            <Label layoutX="147.0" layoutY="27.0" text="Шифровка" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="405.0" prefHeight="75.0" prefWidth="395.0" style="-fx-background-color: #333;">
+         <children>
+            <Label layoutX="132.0" layoutY="27.0" text="Расшифровка" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="395.0" prefHeight="550.0" prefWidth="10.0" style="-fx-background-color: #333;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="395.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="enc_btn" layoutX="99.0" layoutY="288.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Зашифровать" />
+      <TextArea fx:id="def_enc_area" layoutX="64.0" layoutY="94.0" prefHeight="130.0" prefWidth="270.0" promptText="Сообщение для зашифровки" />
+      <TextArea fx:id="out_enc_area" editable="false" layoutX="63.0" layoutY="400.0" prefHeight="130.0" prefWidth="270.0" />
+      <Button fx:id="dec_btn" layoutX="503.0" layoutY="288.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Расшифровать" />
+      <TextArea fx:id="def_dec_area" layoutX="468.0" layoutY="94.0" prefHeight="130.0" prefWidth="270.0" promptText="Сообщение для расшифровки" />
+      <TextArea fx:id="out_dec_area" editable="false" layoutX="468.0" layoutY="400.0" prefHeight="130.0" prefWidth="270.0" />
+      <TextField fx:id="enc_key_field" layoutX="114.0" layoutY="232.0" promptText="Ключ" />
+      <TextField fx:id="dec_key_field" layoutX="518.0" layoutY="232.0" promptText="Ключ" />
+   </children>
+</AnchorPane>

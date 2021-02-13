@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: #444;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pages.Controller">
+   <children>
+      <Button fx:id="page_encrypt_btn" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" text="Encryption" />
+      <Button fx:id="page_calculator_btn" layoutX="14.0" layoutY="40.0" mnemonicParsing="false" text="Smart calculator" />
+      <Button fx:id="pr_3" layoutX="14.0" layoutY="70.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="pr_4" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
